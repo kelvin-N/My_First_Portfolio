@@ -9,11 +9,13 @@
     header { text-align: center; margin-bottom: 2rem; }
     img { max-width: 200px; height: auto; display: block; margin: 0.5rem auto; }
     a.image-link { display: inline-block; }
+    nav { text-align: center; margin-bottom: 2rem; }
+    nav a { margin: 0 1rem; text-decoration: none; color: #0073e6; }
   </style>
 </head>
 <body>
 
-  <nav>
+    <nav>
     <a href="index.html">Home</a>
     <a href="tweets.html">My Tweets</a>
   </nav>
@@ -32,13 +34,16 @@
 
   <p>This is the fourth paragraph. The portfolio will grow over time, but for now, it’s a simple demonstration to show progress in web development skills.</p>
 
-  <!-- Clickable image: clicking the image opens example.com in a new tab -->
-  <p>
-    <a class="image-link" href="https://github.com/Kelvin-N/my_first_portfolio" target="_blank" rel="noopener noreferrer">
-      <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="Portfolio Logo">
-    </a>
-    <small>Click the image to view the My First Portfolio repository on GitHub.</small>
-  </p>
+
+  <!-- Embedded Tweet Example -->
+  <section>
+    <h2>Latest Tweet</h2>
+    <blockquote class="twitter-tweet">
+      <p lang="en" dir="ltr">Just setting up my Twitter. #myfirstTweet</p>&mdash; Twitter (@Twitter)
+      <a href="https://twitter.com/Twitter/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
+    </blockquote> 
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </section>
 
 </body>
 </html>
